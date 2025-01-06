@@ -1,6 +1,10 @@
+import StickyNotes from "./1. Sticky Notes/StickyNotes"
+
 function App(){
 
-  return(<p>Hello World</p>)
+  return(
+  <StickyNotes/>
+)
 }
 
 export default App
