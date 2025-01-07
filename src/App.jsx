@@ -1,9 +1,14 @@
-import StickyNotes from "./1. Sticky Notes/StickyNotes"
+import StickyNotes from "./1. Sticky Notes/StickyNotes";
+import Clock from "./2.Clock/Clock";
 
 function App(){
 
   return(
-  <StickyNotes/>
+          <>
+          <Clock/>
+          <StickyNotes/>
+            
+          </> 
 )
 }
 
